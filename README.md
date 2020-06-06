@@ -1,6 +1,6 @@
 # S0_PVOutput_MQTT for Arduino Yun Only
 
-S0 Counter which can count pulses from a energy meter (or other sensors like water meters) and upload the details to pvoutput.org and additionally send the values via MQTT topics for use in you domotica setup. (i.e. Domoticz or Node-Red).
+S0 Counter which can count pulses from an energy meter (or other sensors like water meters) and upload the details to pvoutput.org and additionally send the values via MQTT topics for use in you domotica setup. (i.e. Domoticz or Node-Red).
 
 The code is partially based on Solarmeter of Harold65 and S0 Uploader of Dylantje but completely adjusted to work on the Arduino Yun only! The Arduino Yun has both a 32u4 microcontroller and a Linux processor. The microcontroller is doing the counting stuff, the linux side is handling sending data to pvoutput.org, MQTT and providing an API to set some initial numbers via a webbrowser. 
  
