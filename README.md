@@ -18,7 +18,7 @@ Website: https://www.vdsar.net/s0-counter-with-arduino-yun/
 
 S0 Counter which counts pulses from an energy meter (or other pulse sensors like water meters) and upload the details to pvoutput.org and additionally send the values via MQTT topics for use in your domotica setup. (i.e. Domoticz or Node-Red).
 
-The code is partially based on Solarmeter of Harold65 and S0 Uploader of [Dylantje](https://github.com/Dylantje/PVOutput-S0-Uploader) but completely updated to work on the Arduino Yun only! The Arduino Yun has both a 32u4 microcontroller and a Linux processor. The microcontroller is doing the counting stuff, the linux side is handling sending data to pvoutput.org, MQTT and providing an API to set some initial numbers via a webbrowser. 
+The code is partially based on Solarmeter of [Harold65](https://github.com/harold65/SolarMeter) and S0 Uploader of [Dylantje](https://github.com/Dylantje/PVOutput-S0-Uploader) but completely updated to work on the Arduino Yun only! Check out the doc's available in Harold65 repository. The Arduino Yun has both a 32u4 microcontroller and a Linux processor. The microcontroller is doing the counting stuff, the linux side is handling sending data to pvoutput.org, MQTT and providing an API to set some initial numbers via a webbrowser. 
  
 This version does not contain any smart meter (Slimme Meter) data. You could use DSMRReader on a Raspberry Pi to get the data from your smart meter to Node-Red and/or Pvoutput.org
   
